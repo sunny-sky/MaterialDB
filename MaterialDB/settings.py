@@ -76,14 +76,14 @@ WSGI_APPLICATION = 'MaterialDB.wsgi.application'
 
 DATABASES = {
     'default': {
-        # 'ENGINE': 'django.db.backends.sqlite3',
-        # 'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'MaterialDB',
-        'USER': 'root',
-        'PASSWORD': '123456',
-        'HOST': '192.168.1.107',
-        'PORT': '3306'
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        # 'ENGINE': 'django.db.backends.mysql',
+        # 'NAME': 'MaterialDB',
+        # 'USER': 'root',
+        # 'PASSWORD': '123456',
+        # 'HOST': '192.168.1.103',
+        # 'PORT': '3306'
     }
 }
 
@@ -130,8 +130,10 @@ STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
 STATICFILES_DIRS = (
     ('css', os.path.join(STATIC_ROOT, 'css')),
-    # ('img', os.path.join(STATIC_ROOT, 'img')),
+    ('img', os.path.join(STATIC_ROOT, 'img')),
     ('js', os.path.join(STATIC_ROOT, 'js')),
+    ('cif', os.path.join(STATIC_ROOT, 'cif')),
+    ('json', os.path.join(STATIC_ROOT, 'json')),
     # ('fonts', os.path.join(STATIC_ROOT, 'fonts')),
     # ('plug', os.path.join(STATIC_ROOT, 'plug')),
 )
