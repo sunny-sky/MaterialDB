@@ -20,3 +20,11 @@ def crystal(request):
     return render(request, 'website/CrystalStructure.html', {'data':load_dict})
 
 
+def electron(request):
+
+    return render(request, 'website/ElectronicStructure.html')
+
+
+def upload(request):
+
+    return render(request, 'website/upload.html')
