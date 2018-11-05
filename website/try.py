@@ -1,9 +1,15 @@
 from pymatgen.electronic_structure import plotter
 from pymatgen.electronic_structure.bandstructure import BandStructureSymmLine
+from mongoengine import *
+from website.models import Student
+print('1')
 
-BandStructureSymmLine.from_dict()
-p = plotter.BSPlotter("/static/json/jmol.json")
-p.show()
+Student.objects.create(name='klc111', age=18)
+
+
+# BandStructureSymmLine.from_dict()
+# p = plotter.BSPlotter("/static/json/jmol.json")
+# p.show()
 
 # # These three lines assimilate the data into ComputedEntries.
 # drone = VaspToComputedEntryDrone()

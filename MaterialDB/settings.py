@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/2.1/ref/settings/
 """
 
 import os
+from mongoengine import connect
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -76,8 +77,14 @@ WSGI_APPLICATION = 'MaterialDB.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        # 把默认的数据库连接至为None
+        'ENGINE': None,
+
+        # 默认数据库
+        # 'ENGINE': 'django.db.backends.sqlite3',
+        # 'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+
+        # mysql
         # 'ENGINE': 'django.db.backends.mysql',
         # 'NAME': 'MaterialDB',
         # 'USER': 'root',
@@ -86,7 +93,7 @@ DATABASES = {
         # 'PORT': '3306'
     }
 }
-
+connect('students', host='127.0.0.1', port=27017)  # 连接的数据库名称
 
 # Password validation
 # https://docs.djangoproject.com/en/2.1/ref/settings/#auth-password-validators
