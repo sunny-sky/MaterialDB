@@ -1,10 +1,11 @@
-from django.shortcuts import render
 import json
-from MaterialDB.settings import BASE_DIR
+from pymatgen.core.structure import Structure
+
 # Create your views here.
 from django.http import HttpResponse
-from django.views.decorators.csrf import csrf_protect
-from django.views.generic import View
+from django.shortcuts import render
+
+from MaterialDB.settings import BASE_DIR
 
 
 def index(request):
@@ -39,11 +40,23 @@ def upload_cif(request):
         print(file_obj, type(file_obj))
         for chunk in file_obj.chunks():
             f.write(chunk)
-            # print(json.load(chunk))
         f.close()
+        to_json_file(file_obj.name)
         print('保存cif成功')
         return HttpResponse('OK')
     return render(request, 'website/upload.html')
+
+
+# 读cif文件产生json文件
+def to_json_file(file_obj_name):
+    cif_name = BASE_DIR+"/static/cif/"+file_obj_name
+    structure = Structure.from_file(cif_name)
+    json_name = BASE_DIR+"/static/json/"+file_obj_name.split(".")[0]+".json"
+    structure.to(filename=json_name)
+    # var = Structure.from_file("../static/cif/test.cif")
+    # print(var)
+    # var.to(filename="../static/json/test.json")
+
 
 
 

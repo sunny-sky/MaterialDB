@@ -1,11 +1,14 @@
-from pymatgen.electronic_structure import plotter
-from pymatgen.electronic_structure.bandstructure import BandStructureSymmLine
-from mongoengine import *
-from website.models import Student
-print('1')
+from pymatgen.core.structure import Structure
+from MaterialDB.settings import BASE_DIR
 
-Student.objects.create(name='klc111', age=18)
+print(BASE_DIR)
 
+# Student.objects.create(name='klc111', age=18)
+# file_obj = "test.cif"
+# print("../static/json/"+file_obj.split(".")[0]+".json")
+# var = Structure.from_file("../static/cif/test.cif")
+# print(var)
+# var.to(filename="../static/json/test.json")
 
 # BandStructureSymmLine.from_dict()
 # p = plotter.BSPlotter("/static/json/jmol.json")
