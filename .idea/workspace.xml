@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6ede420d-ac52-47ea-b46b-9f4c071585c4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/try.py" beforeDir="false" afterPath="$PROJECT_DIR$/website/try.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/website/views.py" afterDir="false" />
-    </list>
+    <list default="true" id="6ede420d-ac52-47ea-b46b-9f4c071585c4" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +34,7 @@
     <session id="1427666438">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.21" value="1" />
@@ -56,7 +52,7 @@
           <entry key="css" value="3" />
           <entry key="html" value="23" />
           <entry key="js" value="4" />
-          <entry key="json" value="11" />
+          <entry key="json" value="12" />
           <entry key="py" value="78" />
           <entry key="rnc" value="1" />
           <entry key="yaml" value="1" />
@@ -66,7 +62,7 @@
         <counts>
           <entry key="CSS" value="3" />
           <entry key="HTML" value="23" />
-          <entry key="JSON" value="11" />
+          <entry key="JSON" value="12" />
           <entry key="JavaScript" value="4" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="Python" value="78" />
@@ -80,7 +76,7 @@
           <entry key="html" value="1321" />
           <entry key="js" value="82" />
           <entry key="json" value="109" />
-          <entry key="py" value="2588" />
+          <entry key="py" value="2612" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -89,7 +85,7 @@
           <entry key="HTML" value="1321" />
           <entry key="JSON" value="109" />
           <entry key="JavaScript" value="82" />
-          <entry key="Python" value="2588" />
+          <entry key="Python" value="2612" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -110,14 +106,14 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/website/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="53" column="25" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
+            <state relative-caret-position="74">
+              <caret line="44" column="24" lean-forward="true" selection-start-line="44" selection-start-column="24" selection-end-line="44" selection-end-column="24" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
-                <marker date="1541433557235" expanded="true" signature="575:576" ph="..." />
-                <marker date="1541433557235" expanded="true" signature="1311:1316" ph="..." />
-                <marker date="1541433557235" expanded="true" signature="1311:1477" ph="..." />
-                <marker date="1541433557235" expanded="true" signature="1311:1604" ph="..." />
+                <marker date="1541433745709" expanded="true" signature="575:576" ph="..." />
+                <marker date="1541433745709" expanded="true" signature="1311:1316" ph="..." />
+                <marker date="1541433745709" expanded="true" signature="1311:1476" ph="..." />
+                <marker date="1541433745709" expanded="true" signature="1311:1603" ph="..." />
               </folding>
             </state>
           </provider>
@@ -234,6 +230,7 @@
         <option value="$PROJECT_DIR$/static/json/test.json" />
         <option value="$PROJECT_DIR$/website/try.py" />
         <option value="$PROJECT_DIR$/website/views.py" />
+        <option value="$PROJECT_DIR$/static/json/LLZO.json" />
       </list>
     </option>
   </component>
@@ -243,7 +240,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="308" />
     <option name="y" value="12" />
     <option name="width" value="1563" />
@@ -475,9 +472,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="308" y="12" width="1563" height="1038" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.164338" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.164338" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -485,7 +481,7 @@
       <window_info anchor="bottom" id="Debug" order="2" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
-      <window_info active="true" anchor="bottom" id="Run" order="5" visible="true" weight="0.2414175" />
+      <window_info anchor="bottom" id="Run" order="5" weight="0.2414175" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32890365" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32890365" />
@@ -802,16 +798,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/static/json/LLZO.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-107484">
+          <caret line="26" column="9" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/website/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="53" column="25" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
+        <state relative-caret-position="74">
+          <caret line="44" column="24" lean-forward="true" selection-start-line="44" selection-start-column="24" selection-end-line="44" selection-end-column="24" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
-            <marker date="1541433557235" expanded="true" signature="575:576" ph="..." />
-            <marker date="1541433557235" expanded="true" signature="1311:1316" ph="..." />
-            <marker date="1541433557235" expanded="true" signature="1311:1477" ph="..." />
-            <marker date="1541433557235" expanded="true" signature="1311:1604" ph="..." />
+            <marker date="1541433745709" expanded="true" signature="575:576" ph="..." />
+            <marker date="1541433745709" expanded="true" signature="1311:1316" ph="..." />
+            <marker date="1541433745709" expanded="true" signature="1311:1476" ph="..." />
+            <marker date="1541433745709" expanded="true" signature="1311:1603" ph="..." />
           </folding>
         </state>
       </provider>
