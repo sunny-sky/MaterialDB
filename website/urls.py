@@ -14,5 +14,7 @@ urlpatterns = [
     # ex: /website/upload
     path('upload', views.upload, name='upload'),
     # 接收上传文件
-    path('upload_cif', views.upload_cif, name='upload_cif')
+    path('upload_cif', views.upload_cif, name='upload_cif'),
+    # 相关文献页面 ex：/website/paper
+    path('paper', views.paper, name='paper')
 ]

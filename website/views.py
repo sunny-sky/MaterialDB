@@ -58,7 +58,6 @@ def to_json_file(file_obj_name):
     # var.to(filename="../static/json/test.json")
 
 
-
-
-
-
+# 相关文献
+def paper(request):
+    return render(request, 'website/paper.html')
