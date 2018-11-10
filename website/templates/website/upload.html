@@ -13,10 +13,19 @@
 </style>
 <body>
 {% include 'top.html' %}
-<form action="/website/upload_cif" method="post" enctype="multipart/form-data">
-     {% csrf_token %}
-     <input type="file" name="file" value="选择"/>
-     <input id="submit_form" type="submit" class="btn btn-success save" value="保存"/>
-</form>
+<div class="container">
+    <div class="row">
+        <br>
+        <br>
+        <br>
+        <div class="col-lg-4 col-lg-offset-4">
+            <form action="/website/upload_cif" method="post" enctype="multipart/form-data">
+                {% csrf_token %}
+                <input type="file" name="file" value="选择"/>
+                <input id="submit_form" type="submit" class="btn btn-success save" value="保存"/>
+            </form>
+        </div>
+    </div>
+</div>
 </body>
 </html>
